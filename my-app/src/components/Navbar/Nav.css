@@ -1,0 +1,69 @@
+.Nav_header {
+  width: 100%;
+  position: fixed;
+  background: #f4f7f5;
+  height: auto;
+  top: 0;
+  left: 0;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.Nav_navigation {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  margin: 0 2rem;
+}
+.Nav-logo {
+  margin: 2rem;
+}
+
+.Nav-logo a {
+  color: #222823;
+  text-decoration: none;
+  font-weight: 200px;
+  font-size: 1.5rem;
+  height: 1.5rem;
+}
+
+spacer {
+  flex: 1;
+}
+
+.Nav_items ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Nav_items li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.Nav_items a {
+  text-decoration: none;
+  color: #575a5e;
+  font-weight: 500;
+  padding: 0.2rem 0;
+}
+
+.Nav_items a:hover,
+.Nav_item a:active {
+  color: #aea4bf;
+  border-bottom: 3px solid #575a5e;
+}
+
+@media (max-width: 768px) {
+  .Nav_items {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .Nav_ToogleButton {
+    display: none;
+  }
+}
