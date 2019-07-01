@@ -1,0 +1,33 @@
+.social-icons {
+  text-align: center;
+  vertical-align: middle;
+  z-index: 1;
+  text-decoration-color: none;
+}
+.social-icons li {
+  display: inline-block;
+  list-style-type: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+
+  text-decoration-color: none;
+}
+
+.social-icons svg {
+  color: #e7e8e9;
+}
+.social-icons li a {
+  border-bottom: none;
+}
+.social-icons li svg {
+  width: 2em;
+  height: 2em;
+  margin-right: 2em;
+}
+
+.social-icons a svg:hover,
+.social-icons a svg:active {
+  border: grey 2px solid;
+  border-radius: 30%;
+  padding: 8px;
+}

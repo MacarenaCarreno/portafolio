@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Navbar, SideNav, BackNav } from './components';
-import Main from './Main';
+import { Navbar, SideNav, BackNav, Footer } from './components';
+import Routes from './Routes';
+import './App.css';
 
 class App extends Component {
   constructor() {
@@ -26,7 +27,7 @@ class App extends Component {
     }
 
     return (
-      <div>
+      <div className="main">
         <Navbar navToggleClick={this.navToggleClick} />
         <SideNav
           show={this.state.sideOpen}
@@ -34,7 +35,9 @@ class App extends Component {
         />
         {backNavClose}
 
-        <Main />
+        <Routes />
+
+        <Footer />
       </div>
     );
   }

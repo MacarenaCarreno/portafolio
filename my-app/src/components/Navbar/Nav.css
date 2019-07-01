@@ -1,34 +1,49 @@
 .Nav_header {
   width: 100%;
-  position: fixed;
-  background: #f4f7f5;
+  position: sticky;
+  background-color: #e7e8e9;
   height: auto;
   top: 0;
   left: 0;
-  padding: 1rem 1rem;
+  padding: 0.1rem 0.1rem;
   vertical-align: middle;
   z-index: 1;
+  font-family: 'Bad Script', cursive;
+  flex-shrink: 0;
+  box-shadow: 2px -5px 9px 0px black;
 }
 
 .Nav_navigation {
   display: flex;
   align-items: center;
   vertical-align: middle;
-  margin: 0 2rem;
 }
 .Nav-logo {
-  margin: 2rem;
+  margin: 0.5%;
+}
+
+.Nav-logo a:hover,
+.Nav-logo a:active {
+  color: #25285fad;
+}
+
+.Nav-logo i {
+  margin: 0 1rem 0 0;
+  font-size: 60px;
+  vertical-align: middle;
+  color: #25285fad;
 }
 
 .Nav-logo a {
-  color: #222823;
+  color: #4d5463;
   text-decoration: none;
-  font-weight: 200px;
-  font-size: 1.5rem;
-  height: 1.5rem;
+  font-weight: 100;
+  height: auto;
+  vertical-align: middle;
+  font-size: 180%;
 }
 
-spacer {
+.Nav-spacer {
   flex: 1;
 }
 
@@ -36,24 +51,40 @@ spacer {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .Nav_items li {
+  font-weight: 300;
   display: inline-block;
   margin: 0 1rem;
+  font-size: 1.2rem;
 }
 
 .Nav_items a {
   text-decoration: none;
-  color: #575a5e;
+  color: #4d5463;
   font-weight: 500;
   padding: 0.2rem 0;
 }
 
 .Nav_items a:hover,
 .Nav_item a:active {
-  color: #aea4bf;
-  border-bottom: 3px solid #575a5e;
+  color: #25285fad;
+  border-bottom: 3px solid #25285fad;
+  border-top: 3px solid #25285fad;
+  padding: 15px 0 15px 0;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+.Icon a:hover,
+.Icon a:active {
+  color: #25285fad;
+  border-bottom: 0 #e7e8e9;
+  border-top: 0 #e7e8e9;
 }
 
 @media (max-width: 768px) {

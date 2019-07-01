@@ -4,32 +4,47 @@ import ToggleButton from '../SideNav/ToggleButton';
 import './Nav.css';
 // import './css/Buttons.css';
 
-const Navbar = props => (
-  <header className="Nav_header">
-    <nav className="Nav_navigation">
-      <div className="Nav_ToogleButton">
-        <ToggleButton click={props.navToggleClick} />
-      </div>
+import { FaLinkedin } from 'react-icons/fa';
 
-      <div className="Nav-logo">
-        <Link to="/">Macarena Carreno</Link>
-      </div>
+const Navbar = props => {
+  return (
+    <header className="Nav_header">
+      <nav className="Nav_navigation">
+        <div className="Nav-logo">
+          <i className="material-icons md-48">fingerprint</i>
+          <Link to="/works">Macarena Carreno</Link>
+        </div>
 
-      <div className="spacer" />
+        <div className="Nav-spacer" />
 
-      <div className="Nav_items">
-        <ul>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
+        <div className="Nav_items">
+          <ul>
+            <li>
+              <Link to="/works">Works</Link>
+            </li>
 
-          <li>
-            <Link to="/works">Works</Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-);
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+
+            <li className="Icon">
+              <a
+                href="https://www.linkedin.com/in/mcarrenog/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />{' '}
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="Nav_ToogleButton">
+          <ToggleButton click={props.navToggleClick} />
+        </div>
+      </nav>
+    </header>
+  );
+};
 
 export default Navbar;
