@@ -5,7 +5,7 @@ function Work() {
   return (
     <div className="App-container">
       <div className="App-container-header title">
-        <h1  > Portafolio </h1>
+        <h1> Portafolio </h1>
       </div>
 
       <Card />

@@ -11,7 +11,8 @@ const Navbar = props => {
     <header className="Nav_header">
       <nav className="Nav_navigation">
         <div className="Nav-logo">
-          <i className="material-icons md-48">fingerprint</i>
+          {/* <i className="material-icons md-48">fingerprint</i> */}
+          <img src="/assets/img/logo.png" alt="Macarena Carreno" />
           <Link to="/works">Macarena Carreno</Link>
         </div>
 

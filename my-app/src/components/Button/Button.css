@@ -1,4 +1,4 @@
-button {
+button.resume-btn {
   color: white;
   border-radius: 5px;
   padding: 12px 40px;
@@ -14,7 +14,7 @@ button {
   text-decoration: none;
 }
 
-button:hover {
+button:hover.resume-btn {
   background-color: rgba(33, 33, 58);
   color: white;
   opacity: 1;

@@ -6,7 +6,7 @@ import './Button.css';
 
 function Button(props) {
   return (
-    <button>
+    <button className='resume-btn'>
       <FontAwesomeIcon icon={faFileAlt} /> {props.text}
     </button>
   );

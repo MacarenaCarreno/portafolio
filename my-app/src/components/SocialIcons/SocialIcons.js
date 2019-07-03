@@ -16,7 +16,7 @@ const SocialIcons = props => {
             rel="noopener noreferrer"
             alt="LinkedIn"
           >
-            <FaLinkedin />{' '}
+            <FaLinkedin />
           </a>
         </li>
 
@@ -27,7 +27,7 @@ const SocialIcons = props => {
             rel="noopener noreferrer"
             alt="GitHub"
           >
-            <FaGithub />{' '}
+            <FaGithub />
           </a>
         </li>
 

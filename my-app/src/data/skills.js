@@ -1,0 +1,17 @@
+export  const skills = [
+  { tool: 'SQL', icon: 'FiDatabase' },
+  { tool: 'MySql', icon: 'DiMysql' },
+  { tool: 'PostgreSQL', icon: 'DiPostgresql' },
+  { tool: 'JavaScript', icon: 'DiJsBadge' },
+  { tool: 'ExpressJs', icon: 'DiNodejsSmall' },
+  { tool: 'NodeJs', icon: 'DiNodejs' },
+  { tool: 'ReactJs', icon: 'DiReact' },
+  { tool: 'ReduxJs', icon: 'MdStore' },
+  { tool: 'SailsJs', icon: 'IoMdBoat' },
+  { tool: 'HTML', icon: 'DiHtml5' },
+  { tool: 'CSS', icon: 'MdDevicesOther' },
+  { tool: 'Materialize CSS', icon: 'DiMaterializecss' },
+  { tool: 'Bootstrap CSS', icon: 'DiBootstrap' },
+  { tool: 'Phaser', icon: 'MdVideogameAsset' },
+  { tool: 'Bilingual English/Spanish', icon: 'IoIosCheckmark' },
+];

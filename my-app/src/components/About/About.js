@@ -4,6 +4,7 @@ import { Parallax } from 'react-parallax';
 import Button from '../Button/Button';
 
 import './Parallax.css';
+import Skills from './Skills';
 
 function About() {
   const image1 = '/assets/img/background.jpg';
@@ -56,9 +57,7 @@ function About() {
         </div>
 
         <div className="App-container-content skills">
-          SQL | MySql | PostgreSQL | JavaScript | ExpressJs | NodeJs | ReactJs |
-          SailsJs | ReduxJs | HTML | Materialize CSS | CSS | Tableau | Phaser |
-          Bilingual English/Spanish
+          <Skills />
         </div>
       </div>
     </div>
