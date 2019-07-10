@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import history from './history';
-import { Router } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Router history={history}>
+  <HashRouter history={history}>
     <App />
-  </Router>,
+  </HashRouter>,
 
   document.getElementById('app')
 );

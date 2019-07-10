@@ -36,7 +36,8 @@ function CardDetail(props) {
                     >
                       <IoIosGlobe className="card_svg" />{' '}
                     </a>
-
+                    
+      
                     <a
                       href={project.git}
                       target="_blank"

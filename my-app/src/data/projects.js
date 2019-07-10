@@ -5,7 +5,7 @@ export const projects = [
     description: 'Restful aplications, developed in XXX',
     project: [
       {
-        name: ' Vision',
+        name: 'Vision',
         description:
           'Image Recognition APP. The user shows an element to the camera, the APP predicts the object, save the data and see the statistic.',
         time: `3 Days - 2019`,
@@ -26,7 +26,7 @@ export const projects = [
         tech:
           'JavaScript, NodeJs, Express, PostgreSQL, Redux, React, TensorFlow.js, PoseNet, Html2Canvas, Web API, Material UI.',
         web: 'https://www.be-yonce.com',
-        git: '',
+        git: 'https://github.com/capstone-clam/BeYonce',
         img: '/assets/img/be_yonce.jpg',
       },
 
@@ -37,7 +37,7 @@ export const projects = [
         team: `[Grace Hopper Project] > Macarena Carreno, , Lucy Marshall, Reina Murooka, KV Nguyen.`,
         tech: `NodeJs, ExpressJs, React, Sequalize, PostgreSQL,Redux, React, Window.localStorage, CSS, BootsTrap, Travis, Heroku`,
         web: 'https://expressojs.herokuapp.com',
-        git: '',
+        git: 'https://github.com/gh-teamshoppers/Expresso.js',
         img: '/assets/img/expresso.jpeg',
       },
       {
