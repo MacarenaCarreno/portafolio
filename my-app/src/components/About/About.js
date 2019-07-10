@@ -49,7 +49,8 @@ function About() {
                   <br />
                   Now, I mix my knowledge in Processes Optimization and the
                   Fullstack.
-                  <h4 className="bold"> Let’s talk!</h4>
+                  <br />
+                  <h4 className="bold-h4"> Let’s talk!</h4>
                 </h3>
 
                 <div className="Parallax-button">

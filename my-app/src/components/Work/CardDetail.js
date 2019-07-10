@@ -16,7 +16,7 @@ function CardDetail(props) {
 
           <div className="card_content">
             <a
-              href={project.link}
+              href={project.web}
               target="_blank"
               rel="noopener noreferrer"
               title="View Live Demo"

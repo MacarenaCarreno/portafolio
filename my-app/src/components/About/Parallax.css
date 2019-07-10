@@ -51,7 +51,8 @@
   padding: 10px 10px 10px 30px;
 }
 
-.bold {
+.bold-h4 {
   font-weight: bold;
   text-align: center;
+  font-size: 1.2em;
 }
