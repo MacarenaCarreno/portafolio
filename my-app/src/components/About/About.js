@@ -32,15 +32,26 @@ function About() {
               </div>
               <div className="App-container-content ">
                 <h3 className="about">
-                  I am an Industrial Engineer and now a Software Developer.
+                  I am an Industrial Engineer (BS) and now a Software Developer.
                   <br /> During my time as an Industrial Engineer, I worked in
-                  process optimization across industries that included mining,
-                  healthcare, and mobile.
+                  process optimization and data analysis across industries, that
+                  included mining, healthcare, mobile and construction.
                   <br />
-                  Having now completed a coding boot camp with Fullstack
-                  Academy, I am excited to blend my previous experience with my
-                  new love of software development. 
+                  <br /> I have been working as a freelancer for the last 3
+                  years, that is why I created a small company call Chagual
+                  Technologies, where I have been developing softwares and
+                  websites, that was my aha! moment and change my path for
+                  Software Developer.
+                  <br />
+                  <br /> In May 2019 I graduated from a BootCamp from Fullstack
+                  Code Academy (Grace Hopper Program), and currently looking for
+                  new opportunities in New York City.
+                  <br />
+                  Now, I mix my knowledge in Processes Optimization and the
+                  Fullstack.
+                  <h4 className="bold"> Let’s talk!</h4>
                 </h3>
+
                 <div className="Parallax-button">
                   <a href="/Macarena_Carreno_2019.pdf" target="_blank">
                     <Button text={'My Resume'} />

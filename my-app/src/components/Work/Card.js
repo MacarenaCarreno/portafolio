@@ -7,11 +7,9 @@ function Card() {
   return (
     <div className="card-container">
       {projects.map(el => (
-        <div className="card-container">
+        <div className="card-container" key={el.id}>
           <h3 className="card-container-title"> {el.type} </h3>
-          <p className="card-container-detail">{el.description}</p>
-
-          <CardDetail project={el.project} id={el.id} />
+          <CardDetail project={el.project} id={el.id} key={el.id} />
         </div>
       ))}
     </div>

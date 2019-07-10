@@ -13,11 +13,12 @@
   justify-content: center;
   height: 100%;
   flex-wrap: wrap;
+  margin: 1em 0 1em 0;
 }
 
 .card-container-title {
   padding: 0 3em 0 3em;
-  margin: 2em 5em 0 5em;
+  margin: 0 2.2em 0 2.2em;
   background: #e7e8e965;
   width: 100%;
   text-align: center;
@@ -82,9 +83,15 @@
   animation: ContentFadeIn 0.8s 1.6s forwards;
 }
 
-.rigth {
+.tr-rigth {
   text-align: right;
+  align-content: flex-end;
 }
+
+.left {
+  text-align: left;
+}
+
 .moveTop {
   margin-top: -0.5em;
 }
@@ -102,11 +109,13 @@
   border: grey 2px solid;
   border-radius: 30%;
   padding: 8px;
+  cursor: pointer;
 }
 
 .card a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 @keyframes LineFadeIn {

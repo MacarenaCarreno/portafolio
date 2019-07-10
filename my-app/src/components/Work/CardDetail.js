@@ -9,7 +9,7 @@ function CardDetail(props) {
   return (
     <div className="card-container">
       {projects.map(project => (
-        <div className="card">
+        <div className="card" key={project.name}>
           <div className="card_image-container">
             <img className="card_image" src={project.img} alt="" />
           </div>
@@ -25,9 +25,9 @@ function CardDetail(props) {
             </a>
 
             <table className="moveTop">
-              <thead>
-                <tr className="rigth">
-                  <th colspan="1">
+              <tbody>
+                <tr className="tr-rigth">
+                  <th>
                     <a
                       href={project.web}
                       target="_blank"
@@ -36,54 +36,52 @@ function CardDetail(props) {
                     >
                       <IoIosGlobe className="card_svg" />{' '}
                     </a>
-                    
-      
-                    <a
-                      href={project.git}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      alt="Git"
-                    >
-                      <FaGithub className="card_svg" />
-                    </a>
+
+                    {project.git !== '' ? (
+                      <a
+                        href={project.git}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="Git"
+                      >
+                        <FaGithub className="card_svg" />
+                      </a>
+                    ) : null}
                   </th>
                 </tr>
-              </thead>
-              {/* </table>
+
+                {/* </table>
 
             <table> */}
-              <thead>
-                <th>
-                  <tr>Technologies</tr>
-                </th>
-              </thead>
 
-              <tbody>
-                <td>
-                  <tr>{project.tech}</tr>
-                </td>
-              </tbody>
+                <tr>
+                  <th className="left">Technologies</th>
+                </tr>
 
-              <thead>
-                <th>
-                  <tr>Description </tr>
-                </th>
-              </thead>
+                <tr>
+                  <td>{project.tech}</td>
+                </tr>
 
-              <tbody>
-                <td>
-                  <tr>{project.description}</tr>
-                </td>
+                <tr>
+                  <th className="left">Description</th>
+                </tr>
+
+                <tr>
+                  <td>{project.description}</td>
+                </tr>
               </tbody>
             </table>
 
             <hr />
             <table>
               <tbody>
-                <td>
-                  <tr>Developed in: {project.time}</tr>
-                  <tr>Team: {project.team} </tr>
-                </td>
+                <tr>
+                  <td>Developed in: {project.time}</td>
+                </tr>
+
+                <tr>
+                  <td>Team: {project.team} </td>
+                </tr>
               </tbody>
             </table>
           </div>
