@@ -26,6 +26,7 @@ import './skills.css';
 
 function Skills(params) {
   return (
+    
     <div className="title">
       <ul className="social-icons skill">
         <li>

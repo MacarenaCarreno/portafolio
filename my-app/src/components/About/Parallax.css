@@ -43,6 +43,9 @@
   .App-container-content {
     padding: 0;
   }
+  .App-container.skills {
+    flex-direction: column;
+  }
 }
 
 .about {

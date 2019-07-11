@@ -13,7 +13,7 @@ const Navbar = props => {
         <div className="Nav-logo">
           {/* <i className="material-icons md-48">fingerprint</i> */}
           <img src="/assets/img/logo.png" alt="Macarena Carreno" />
-          <Link to="/works">Macarena Carreno</Link>
+          <Link to="/about">Macarena Carreno</Link>
         </div>
 
         <div className="Nav-spacer" />

@@ -32,20 +32,22 @@ function About() {
               </div>
               <div className="App-container-content ">
                 <h3 className="about">
-                  I am an Industrial Engineer (BS) and now a Software Developer.
+                  I am a Bachelor of science and engineering in industrial
+                  engineering, and Software Developer.
                   <br /> During my time as an Industrial Engineer, I worked in
                   process optimization and data analysis across industries, that
                   included mining, healthcare, mobile, and construction.
                   <br />
-                  <br /> I have been working as a freelancer for the last 3
-                  years, that is why I created a small company call Chagual
-                  Technologies, where I have been developing software and
-                  websites, that was my Aha! moment and change my path for
-                  Software Developer.
+                  <br />I have been working as a freelancer for the last 3
+                  years, that is why I created a small company called Chagual
+                  Technologies, where I helped small and midsize companies in
+                  process optimization, and as a result of that, I had to
+                  develop and implement software and websites, that was my Aha!
+                  moment and decide to pursue the path of Software Developer.
                   <br />
-                  <br /> In May 2019 I graduated from a BootCamp from Fullstack
-                  Academy of Code (Grace Hopper Program) and currently looking
-                  for new opportunities in New York City.
+                  <br /> In May 2019 I graduated from Fullstack Academy of Code
+                  (Grace Hopper Program) and currently looking for new
+                  opportunities in New York City.
                   <br />
                   Now, I mix my knowledge in Processes Optimization and the
                   Fullstack.
@@ -63,12 +65,13 @@ function About() {
           </div>
         </div>
       </Parallax>
-      <div className="App-container">
+
+      <div className="App-container skills">
         <div className="App-container-header title">
           <h1> Skills </h1>
         </div>
 
-        <div className="App-container-content skills">
+        <div className="App-container-content">
           <Skills />
         </div>
       </div>
