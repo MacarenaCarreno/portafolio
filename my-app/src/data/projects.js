@@ -5,6 +5,29 @@ export const projects = [
     description: 'Restful aplications, developed in XXX',
     project: [
       {
+        name: 'Simec',
+        description:
+          'System to manage rental formwork, and shoring equipment for construction companies. Note: Password required.',
+        time: `1 year, since 2017, continuos improvement`,
+        team: `Chagual.com`,
+        tech: 'Sails.Js, MySQL, JQuery,  Materialize CSS, AWS, Python, PDFKit.',
+        web: 'https://www.simec.cl/',
+        git: '',
+        img: '/assets/img/simec.jpg',
+      },
+      {
+        name: 'Elevate',
+        description:
+          'A Web App to address gender equality through reverse mentoring.',
+        time: `3 Weeks - 2019.`,
+        team: `[Equalithon] > Jocelyn Jeriah, Linda Saraguro, Macarena Carreno, Tal Luigui, Sam Peach & Madinah Ali.`,
+        tech:
+          'NodeJS, Express, PostgreSQL, Redux, React, Bulma, Calendly, Google OAuth, NodeMailer.',
+        web: 'http://elevateus.herokuapp.com/',
+        git: 'https://github.com/equalithon-rm/reverseMentoring',
+        img: '/assets/img/elevate.png',
+      },
+      {
         name: 'Vision',
         description:
           'Image Recognition APP. The user shows an element to the camera, the APP predicts the object, save the data and see the statistic.',
@@ -16,7 +39,6 @@ export const projects = [
         git: '',
         img: '/assets/img/vision.jpg',
       },
-
       {
         name: 'Be-Yoncé',
         description: `Augmented reality webcam application allows users to virtually try on Beyoncé's iconic clothing while playing music and taking downloadable screenshots. Using TensorFlow.js's PoseNet the   items were dynamically positioned on an HTML5 canvas using functions that allow them to move and scale with the user’s motion.`,
@@ -40,17 +62,7 @@ export const projects = [
         git: 'https://github.com/gh-teamshoppers/Expresso.js',
         img: '/assets/img/expresso.jpeg',
       },
-      {
-        name: 'Simec',
-        description:
-          'System to manage rental formwork, and shoring equipment for construction companies. Note: Password required.',
-        time: `1 year, since 2017, continuos improvement`,
-        team: `Chagual.com`,
-        tech: 'Sails.Js, MySQL, JQuery,  Materialize CSS, AWS, Python, PDFKit.',
-        web: 'https://www.simec.cl/',
-        git: '',
-        img: '/assets/img/simec.jpg',
-      },
+      
     ],
   },
   {
@@ -99,6 +111,16 @@ export const projects = [
         web: 'http://www.mecanotuboperu.pe/',
         git: '',
         img: '/assets/img/mec_pe.png',
+      },
+      {
+        name: 'Mecanotubo Chile',
+        description: 'Website for rental equipment company in Chile.',
+        tech: 'HTML, JavaScript, Boostrap.',
+        time: '2017',
+        team: `Chagual.com`,
+        web: 'http://www.mecanotubo.cl/',
+        git: '',
+        img: '/assets/img/mec_cl.png',
       },
     ],
   },
