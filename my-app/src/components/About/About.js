@@ -32,25 +32,24 @@ function About() {
               </div>
               <div className="App-container-content ">
                 <h3 className="about">
-                  I am a Bachelor of science and engineering in industrial
-                  engineering, and Software Developer.
+                  I am a Bachelor of science and engineering in Industrial
+                  Engineering and Software Developer.
                   <br /> During my time as an Industrial Engineer, I worked in
                   process optimization and data analysis across industries, that
                   included mining, healthcare, mobile, and construction.
                   <br />
                   <br />I have been working as a freelancer for the last 4
-                  years, that is why I crated Chagual Technologies, where I help
-                  small and midsize companies in process optimization, and as a
-                  result of that, I have been developing and implementing SAAS
-                  solutions and websites, that was my Aha! moment and decide to
-                  pursue the path of Software Developer.
+                  years, that is why I created Chagual Technologies, where I
+                  help small and midsize companies in process optimization, and
+                  as a result of that, I have been developing and implementing
+                  SAAS solutions and websites, that was my Aha! moment and
+                  decide to pursue the path of Software Developer.
                   <br />
                   <br /> In May 2019 I graduated from Fullstack Academy of Code
                   (Grace Hopper Program) and currently looking for new
                   opportunities in New York City.
                   <br /> <br />
-                  Now, I work as a Solutions Engineer! Where I mix my both
-                  careers.
+                  Now, I work as a Solutions Engineer! Where I mix both careers.
                   <br />
                 </h3>
 
