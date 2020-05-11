@@ -38,25 +38,24 @@ function About() {
                   process optimization and data analysis across industries, that
                   included mining, healthcare, mobile, and construction.
                   <br />
-                  <br />I have been working as a freelancer for the last 3
-                  years, that is why I created a small company called Chagual
-                  Technologies, where I helped small and midsize companies in
-                  process optimization, and as a result of that, I had to
-                  develop and implement software and websites, that was my Aha!
-                  moment and decide to pursue the path of Software Developer.
+                  <br />I have been working as a freelancer for the last 4
+                  years, that is why I crated Chagual Technologies, where I help
+                  small and midsize companies in process optimization, and as a
+                  result of that, I have been developing and implementing SAAS
+                  solutions and websites, that was my Aha! moment and decide to
+                  pursue the path of Software Developer.
                   <br />
                   <br /> In May 2019 I graduated from Fullstack Academy of Code
                   (Grace Hopper Program) and currently looking for new
                   opportunities in New York City.
+                  <br /> <br />
+                  Now, I work as a Solutions Engineer! Where I mix my both
+                  careers.
                   <br />
-                  Now, I mix my knowledge in Processes Optimization and the
-                  Fullstack.
-                  <br />
-                  <h4 className="bold-h4"> Let’s talk!</h4>
                 </h3>
 
                 <div className="Parallax-button">
-                  <a href="/Macarena_Carreno_2019.pdf" target="_blank">
+                  <a href="/Macarena_Carreno_2020.pdf" target="_blank">
                     <Button text={'My Resume'} />
                   </a>
                 </div>
